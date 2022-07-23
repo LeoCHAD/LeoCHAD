@@ -1,0 +1,49 @@
+.grafico-pentagono__contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grafico-pentagono__pentagono{
+    height: 320px;
+    width: 320px;
+    background: url('../imagenes/pentagono-fondo.png') center;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grafico-pentagono__subpentagono{
+    background-color: rgba(252, 113, 113, 0.581);
+    height: 50%;
+    width: 50%;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);    
+    filter: drop-shadow(0 0 5px 15px #000);
+}
+.grafico-pentagono__valor{
+    position: absolute;
+    font-weight: 600;
+    color: #888;
+}
+.valor1{/*modificador*/
+    right: 51vw;
+    bottom: 43vh;
+}
+.valor2{/*modificador*/
+    right: 36vw;
+    bottom: 66vh;
+}
+.valor3{/*modificador*/
+    right: 21vw;
+    bottom: 43vh;
+}
+.valor4{/*modificador*/
+    right: 45vw;
+    bottom: 6vh;
+}
+.valor5{/*modificador*/
+    right: 27vw;
+    bottom: 6vh;
+}

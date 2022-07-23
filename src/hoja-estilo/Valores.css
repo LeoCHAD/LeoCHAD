@@ -1,0 +1,48 @@
+.valores__contenedor {
+  background-color: rgb(246, 241, 242);
+  grid-column: 2/5;
+  grid-row: 1/2;
+  display: flex;
+
+}
+
+.valores__entradas {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 9px;
+
+}
+
+.valores__aplicar {
+  margin: 12px;
+  flex: 1;
+  font-size: 40px;
+  font-weight: 800;
+
+}
+
+.valores__aplicar:hover,.valores__restart:hover {
+  background-color: #ef5188;
+  transform: scale(1.04);
+}
+
+.boton {/*modificador*/
+  background-color: #d21557;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 120ms;
+  cursor: pointer;
+  user-select: none;
+}
+.valores__restart{
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 40px;
+}

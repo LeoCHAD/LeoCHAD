@@ -1,0 +1,52 @@
+.grafico-barra__contenedor{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30px repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-items: start;
+}
+.grafico-barra__plano{
+    grid-column: 1/7;
+    grid-row: 1/5;
+    border-left: 3px solid #888;
+    border-bottom: 3px solid #888;
+    width: 97%;
+    height: 99%;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+.grafico-barra__label{
+    margin-left: 30%;
+    font-weight: 700;
+    color: #666;
+    text-decoration: overline;
+}
+.label1{/*modificador*/
+    grid-column: 2/3;
+}
+
+.grafico-barra__barra{
+    width: 15%;
+    height: 20px;
+    min-height: 10px;
+    color: #fff;
+    transform-origin: bottom;
+}
+.barra1{/*modificador*/
+    background-color: #b90404;
+}
+.barra2{/*modificador*/
+    background-color: #d70000;
+}
+.barra3{/*modificador*/
+    background-color: #ff0000;
+}
+.barra4{/*modificador*/
+    background-color: #ff4646;
+}
+.barra5{/*modificador*/
+    background-color: #ff8585;
+}

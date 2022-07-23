@@ -1,0 +1,31 @@
+.entradas__contenedor{
+    width: 28%;
+    height: auto;
+    margin: 9px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.entradas__label{
+    margin-right: 9px;
+    font-weight: 700;
+
+}
+.entradas__valor{
+    height: 100%;
+    max-width: 65%;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 8px solid #f5c6c6;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, .2);
+    transition: 30ms;
+}
+.entradas__valor:focus{
+    outline: 4px solid #f5c6c6;
+    transform: scale(1.05);
+}
