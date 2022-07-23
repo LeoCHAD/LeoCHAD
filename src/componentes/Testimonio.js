@@ -13,8 +13,8 @@ class Testimonio extends React.Component{
           height='368px' />
         <div className='contenedor-texto-testimonio'>
           <p className='nombre-testimonio'><b> {this.props.nombre}</b> en {this.props.pais}</p>
-          <p className='cargo-testimonio'>{this.props.cargo} en <b>{this.props.empresa}</b></p>
-          <p className='texto-testimonio'>{this.props.testimonio}</p>
+          <p className='cargo-testimonio'>{ this.props.cargo} en <b>{this.props.empresa}</b></p>
+          <p className='texto-testimonio'>{ this.props.testimonio}</p>
         </div>
       </div>
   
